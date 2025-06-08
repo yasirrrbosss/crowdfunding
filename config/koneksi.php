@@ -14,7 +14,7 @@ class Database {
         $this->port = $_ENV['DB_PORT'] ?? '3306';
         $this->db_name = $_ENV['DB_NAME'] ?? 'crowdfunding_db';
         $this->username = $_ENV['DB_USER'] ?? 'admin';
-        $this->password = $_ENV['DB_PASS'] ?? 'your_password_here'; // GANTI dengan password Anda
+        $this->password = $_ENV['DB_PASS'] ?? 'jancok123'; // GANTI dengan password Anda
     }
     
     public function getConnection() {
